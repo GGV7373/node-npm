@@ -1,0 +1,15 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "main": "node sum.js",
+    "test": "node product.js",
+    "start": "cd web && http-server web",
+    "fun": "node fizzbuzz.js",
+    "partall": "node partall.js"
+  },
+  "keywords": [],
+  "author": "Victor/GGV7373",
+  "license": "ISC"
