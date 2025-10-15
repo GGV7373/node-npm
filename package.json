@@ -6,10 +6,11 @@
   "scripts": {
     "main": "node sum.js",
     "test": "node product.js",
-    "start": "cd web && http-server web",
+    "start": "npx http-server ./web -o",
     "fun": "node fizzbuzz.js",
     "partall": "node partall.js"
   },
   "keywords": [],
   "author": "Victor/GGV7373",
   "license": "ISC"
+}
